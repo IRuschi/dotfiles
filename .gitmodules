@@ -4,21 +4,6 @@
 [submodule "built_from_source/neovim/neovim"]
 	path = built_from_source/neovim/neovim
 	url = https://github.com/neovim/neovim
-[submodule "built_from_source/alacritty/alacritty"]
-	path = built_from_source/alacritty/alacritty
-	url = https://github.com/alacritty/alacritty
 [submodule ".config/lvim"]
 	path = .config/lvim
-	url = https://github.com/antonkesy/nvim-config
-[submodule ".config/alacritty/themes"]
-	path = .config/alacritty/themes
-	url = https://github.com/alacritty/alacritty-theme.git
-[submodule "extensions/gSnap"]
-	path = extensions/gSnap
-	url = https://github.com/GnomeSnapExtensions/gSnap.git
-[submodule "extensions/gnome-shell-extension-lockkeys"]
-	path = extensions/gnome-shell-extension-lockkeys
-	url = https://github.com/kazysmaster/gnome-shell-extension-lockkeys.git
-[submodule "extensions/gnome-shell-extension-clipboard-indicator"]
-	path = extensions/gnome-shell-extension-clipboard-indicator
-	url = https://github.com/Tudmotu/gnome-shell-extension-clipboard-indicator.git
+	url = https://github.com/IRuschi/lvim-config 

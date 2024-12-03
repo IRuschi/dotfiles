@@ -2,7 +2,6 @@
 
 dirs_to_link=(
     ".config/lvim/lua/"
-    ".config/alacritty/"
     ".config/zsh/"
     ".tmux/plugins/tpm/"
 )
@@ -27,7 +26,6 @@ mkdir -p "$HOME/.config/lvim/spell"
 files_to_link=(
     ".config/starship.toml"
     ".config/lvim/config.lua"
-    ".config/gSnap/layouts.json"
     ".tmux.conf"
     ".zshrc"
 )

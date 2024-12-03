@@ -1,7 +1,4 @@
 #!/bin/bash
 
-sudo apt purge nodejs -y
-sudo apt autoremove -y
-
-brew install fnm --skip-shell
-fnm install v23.3.0
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+~/.nvm/nvm.sh install --lts
