@@ -25,7 +25,6 @@ done
 mkdir -p "$HOME/.config/lvim/spell"
 
 files_to_link=(
-    ".config/monitors.xml"
     ".config/starship.toml"
     ".config/lvim/config.lua"
     ".config/gSnap/layouts.json"
