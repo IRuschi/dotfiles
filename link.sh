@@ -2,11 +2,10 @@
 
 dirs_to_link=(
     ".config/lvim/lua/"
-    ".config/zsh/"
+    ".config/bash/"
     ".tmux/plugins/tpm/"
 )
 
-rm ~/.config/zsh -rf
 
 for item in ${dirs_to_link[@]}; do
     from="$(pwd)/$item"
@@ -27,10 +26,9 @@ files_to_link=(
     ".config/starship.toml"
     ".config/lvim/config.lua"
     ".tmux.conf"
-    ".zshrc"
+    ".tmux/sessions.sh"
 )
 
-mkdir ${HOME}/.config/gSnap/
 
 for item in ${files_to_link[@]}; do
     from="$(pwd)/$item"
@@ -40,4 +38,3 @@ for item in ${files_to_link[@]}; do
 done
 
 
-zcompile ~/.zshrc

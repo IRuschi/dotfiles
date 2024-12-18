@@ -1,2 +1,2 @@
 # https://github.com/starship/starship
-eval "$(starship init zsh)"
+eval "$(starship init bash)"
