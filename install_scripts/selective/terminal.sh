@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install unzip
+sudo apt-get install -y ninja-build gettext cmake unzip curl cmake
 
 
 sudo apt install tmux 
