@@ -9,3 +9,4 @@ ${SCRIPT_DIR}/base/c++.sh
 ${SCRIPT_DIR}/base/dotnet.sh
 ${SCRIPT_DIR}/base/rust.sh
 ${SCRIPT_DIR}/base/node.sh
+${SCRIPT_DIR}/base/nvim.sh

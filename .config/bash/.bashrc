@@ -3,9 +3,9 @@ CONFIG="$HOME/.config/bash"
 if [ -f $CONFIG/.bashrc_alias ]; then
     . $CONFIG/.bashrc_alias
 fi
-if [ -f $CONFIG/.bashrc_angular ]; then
-    . $CONFIG/.bashrc_angular
-fi
+#if [ -f $CONFIG/.bashrc_angular ]; then
+#    . $CONFIG/.bashrc_angular
+#fi
 if [ -f $CONFIG/.bashrc_path ]; then
     . $CONFIG/.bashrc_path
 fi
