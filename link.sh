@@ -6,6 +6,8 @@ dirs_to_link=(
     ".tmux/plugins/tpm/"
 )
 
+mkdir ~/.config
+
 
 for item in ${dirs_to_link[@]}; do
     from="$(pwd)/$item"
